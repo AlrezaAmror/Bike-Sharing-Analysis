@@ -4,8 +4,8 @@ import seaborn as sns
 sns.set_color_codes('bright')
 import streamlit as st
 
-day_df = pd.read_csv('dashboard/day.csv')
-hour_df = pd.read_csv('dashboard/hour.csv')
+day_df = pd.read_csv('data/day.csv')
+hour_df = pd.read_csv('data/hour.csv')
 
 season_labels = {
     1 : 'springer',
