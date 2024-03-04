@@ -11,8 +11,6 @@ Besides that, I also make the dashboard using streamlit
 .
 ├── dashboard
 │   ├── dashboard.py
-│   ├── day.csv
-│   ├── hour.csv
 │   └── logo.png
 ├── data
 │   ├── day.csv
@@ -59,3 +57,5 @@ Besides that, I also make the dashboard using streamlit
     ```shell
     cd bike-sharing/dashboard/
     streamlit run dashboard.py
+## Live Demo
+[StreamlitApp](https://alreza-bike-sharing-analysis.streamlit.app)
